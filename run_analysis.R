@@ -1,4 +1,4 @@
-setwd('C:/Users/sduenwald/UCI HAR Dataset')
+#setwd('C:/Users/sduenwald/UCI HAR Dataset')
 #load annotation
 headers = read.delim('./features.txt',header=F)
 act_labels = read.table('./activity_labels.txt')
