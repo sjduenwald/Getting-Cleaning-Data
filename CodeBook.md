@@ -39,7 +39,7 @@ Annotation code snippet:
 ###Add human readable activity names
 
 	#merge with activity names
-dat = merge(dat,act_labels,by.x='Labels',by.y='Code')
+	dat = merge(dat,act_labels,by.x='Labels',by.y='Code')
 
 ###Generate mean values per subject and activity
 
